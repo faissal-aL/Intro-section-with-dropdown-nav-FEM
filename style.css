@@ -147,7 +147,7 @@ button {
   background-color: var(--AlmostBlack);
   border-radius: 10px;
 }
-button:hover {
+button:hover, .arrow:hover {
   cursor: pointer;
 }
 .learn-more:hover {
