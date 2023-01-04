@@ -76,3 +76,8 @@ mobileMenu.addEventListener("click", function () {
 mobileMenuClose.addEventListener("click", function () {
   header.style.display = "none";
 });
+
+window.addEventListener("resize",function(){
+  if(screen.width >500) header.style.display = "flex";
+  else header.style.display = "none";
+});
